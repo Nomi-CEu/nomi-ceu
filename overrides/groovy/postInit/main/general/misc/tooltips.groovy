@@ -307,6 +307,9 @@ for (MetadataLivingMatter matter : MetadataManager.livingMatterMetadataList) {
 		addTooltip(matter.itemStack, translatable('nomiceu.tooltip.dme.matter', xpPercent))
 }
 
+/* NuclearCraft */
+addTooltip(item('nuclearcraft:fission_controller_new_fixed'), translatable('nomiceu.tooltip.nc.fission_safe'))
+
 /* Thermal Expansion */
 
 // Capacitors

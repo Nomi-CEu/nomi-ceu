@@ -122,6 +122,7 @@ nomiceu.tooltip.labs.hand_framing.bottom_left=§5Bottom Left: §oFront§r
 # NuclearCraft
 nomiceu.tooltip.nc.nbt_clearing.cooler.can_clear=Place in Crafting Grid to §eClear Coolant§r!
 nomiceu.tooltip.nc.nbt_clearing.cooler.warning=§cCoolant Will be Voided!§r
+nomiceu.tooltip.nc.fission_safe=§aSafe! Does not meltdown!§r
 
 # Storage Drawers, Framed Compacting Drawers & GregTech Drawers
 nomiceu.tooltip.drawers.nbt_clearing.drawers.can_clear.1=Place in Crafting Grid to §eClear Contents§r!
