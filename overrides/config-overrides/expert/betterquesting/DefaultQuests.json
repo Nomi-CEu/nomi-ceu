@@ -17598,7 +17598,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Produced by many different reactions. Currently, you only have access to the ones that require §9Hydrofluoric Acid§r, although it may be worth using §9Fluoroantimonic Acid§r in the future to improve your yields.\n\nYou\u0027ll need a lot of this, so this fluid is worth passiving! Consider investing in the §6Naphthalene§r catalysed §3Large Chemical Reactor§r recipe, as it uses §6Ender Pearl Dust§r, which you can make in a §3Chemical Reactor§r.",
+          "desc:8": "Produced by many different reactions. Currently, you only have access to the ones that require §9Hydrofluoric Acid§r, although it may be worth using §9Fluoroantimonic Acid§r in the future to improve your yields.\n\nYou\u0027ll need a lot of this, so this fluid is worth passiving! Consider investing in the §6Naphthalene§r catalysed §3Large Chemical Reactor§r recipe, as it uses §6Ender Pearl Dust§r, which you can make in a §3Chemical Reactor§r. You can get Naphthalene from §6Coal Tar§r, which you can get from §6Coal§r, or renewably from §9Nether Air§r, through §9Coal Gas§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
