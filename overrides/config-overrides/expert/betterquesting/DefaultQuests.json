@@ -1862,7 +1862,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Pulsating Dust§r is a mysterious magical material that taps into the power of Ender. It has all sorts of strange and potentially dangerous applications, including the ability to make §6Pulsating Ingots§r and §6Ender Pearls§r.\n\nYour first source of Pulsating Dust is §6Uraninite§r, which you can get from §6Uraninite Ore§r. Later on, you\u0027ll be able to produce Pulsating Dust by smelting §6Resonant Clathrates§r.\n\n§cPlease note that the Enderpearl Dust electrolysis recipe requires an EV Electrolyzer, and is most likely not worth it.§r",
+          "desc:8": "§6Pulsating Dust§r is a mysterious magical material that taps into the power of Ender. It has some applications for you now, including the ability to make §6Pulsating Ingots§r and §6Ender Pearls§r.\n\nYour first source of Pulsating Dust is §6Uraninite§r, which you can get from §6Uraninite Ore§r. Later on, you\u0027ll be able to produce Pulsating Dust by smelting §6Resonant Clathrates§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1922,7 +1922,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A mysterious alloy, made from §6Pulsating Dust§r and §6Iron§r.\n\nIf you can\u0027t find one otherwise, §6Ender Pearls§r can be crafted using Pulsating Dust and a §6Diamond§r in an §3Alloy Smelter§r.",
+          "desc:8": "A mysterious alloy, made from §6Pulsating Dust§r and §6Iron§r.\n\nIf you can\u0027t find one otherwise, §6Ender Pearls§r can be crafted using Pulsating Dust and a §6Diamond§r in an §3Alloy Smelter§r.\n\nIt may be helpful to setup an §eEnder Pearl Farm§r, with §6Ender Lilies§r. You\u0027ll need a fair amount of pearls.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5480,7 +5480,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Farmer§r can be used to automate the planting and gathering of crops, including §6Potatoes§r, §6Canola§r, §6Carrots§r, and §6Beetroot§r.\n\nDoesn\u0027t do trees, though.",
+          "desc:8": "The §3Farmer§r can be used to automate the planting and gathering of crops, including §6Potatoes§r, §6Canola§r, §6Carrots§r, and §6Beetroot§r.\n\nProbably most helpful for farming §6Ender Pearls§r, through §6Ender Lilies§r.\n\nDoesn\u0027t do trees, though.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17598,7 +17598,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Once you gain access to §9Fluoroantimonic Acid§r, you can make this more efficiently with respect to §9Fluorine§r.",
+          "desc:8": "Produced by many different reactions. Currently, you only have access to the ones that require §9Hydrofluoric Acid§r, although it may be worth using §9Fluoroantimonic Acid§r in the future to improve your yields.\n\nYou\u0027ll need a lot of this, so this fluid is worth passiving! Consider investing in the §6Naphthalene§r catalysed §3Large Chemical Reactor§r recipe, as it uses §6Ender Pearl Dust§r, which you can make in a §3Chemical Reactor§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -38371,25 +38371,23 @@
       }
     },
     "728:10": {
-      "preRequisites:11": [
-        227
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Uraninite Ore§r is the first source of §6Pulsating Dust§r but is not a very good one in the long term. Instead you should make §6Resonant Clathrates§r, which are an infinitely-renewable and effective source of Pulsating Dust.\n\nResonant Clathrates are made by melting §6Ender Pearls§r with a §3Fluid Extractor§r into §9Resonant Ender§r, then mixing that with §6Nether Quartz§r in an MV or better §3Chemical Reactor§r. Smelting this clathrate gives Pulsating Dust.\n\nEnder Pearls are best gotten through §3Ender Lilies§r. You need §6Pulsating Dust§r for many things.",
+          "desc:8": "Unused Gap Quest. Prevents Overriding Of IDs.",
           "globalshare:1": 0,
           "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 895,
+            "Count:3": 0,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "thermalfoundation:material"
+            "id:8": "minecraft:air"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 1,
-          "name:8": "Resonant Clathrate",
+          "issilent:1": 1,
+          "lockedprogress:1": 0,
+          "name:8": "Gap",
           "partysinglereward:1": 0,
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
@@ -38398,29 +38396,15 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "HIDDEN"
         }
       },
       "questID:3": 728,
       "rewards:9": {},
       "tasks:9": {
         "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 895,
-              "OreDict:8": "",
-              "id:8": "thermalfoundation:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:checkbox"
         }
       }
     },
@@ -58965,279 +58949,272 @@
           "y:3": -364
         },
         "79:10": {
-          "id:3": 728,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 248,
-          "y:3": -364
-        },
-        "80:10": {
           "id:3": 730,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 248,
           "y:3": -400
         },
-        "81:10": {
+        "80:10": {
           "id:3": 731,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 284,
           "y:3": -400
         },
-        "82:10": {
+        "81:10": {
           "id:3": 747,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 16,
           "y:3": -228
         },
-        "83:10": {
+        "82:10": {
           "id:3": 790,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -124
         },
-        "84:10": {
+        "83:10": {
           "id:3": 801,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 864,
           "y:3": -336
         },
-        "85:10": {
+        "84:10": {
           "id:3": 810,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 208,
           "y:3": -268
         },
-        "86:10": {
+        "85:10": {
           "id:3": 812,
           "sizeX:3": 0,
           "sizeY:3": 0,
           "x:3": 296,
           "y:3": -216
         },
-        "87:10": {
+        "86:10": {
           "id:3": 816,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 312,
           "y:3": -72
         },
-        "88:10": {
+        "87:10": {
           "id:3": 818,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 364,
           "y:3": -104
         },
-        "89:10": {
+        "88:10": {
           "id:3": 820,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -164
         },
-        "90:10": {
+        "89:10": {
           "id:3": 821,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 676,
           "y:3": -316
         },
-        "91:10": {
+        "90:10": {
           "id:3": 822,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -60
         },
-        "92:10": {
+        "91:10": {
           "id:3": 823,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 28,
           "y:3": -364
         },
-        "93:10": {
+        "92:10": {
           "id:3": 824,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 696,
           "y:3": -228
         },
-        "94:10": {
+        "93:10": {
           "id:3": 830,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 504,
           "y:3": -232
         },
-        "95:10": {
+        "94:10": {
           "id:3": 831,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 528,
           "y:3": -264
         },
-        "96:10": {
+        "95:10": {
           "id:3": 832,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 528,
           "y:3": -192
         },
-        "97:10": {
+        "96:10": {
           "id:3": 833,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 488,
           "y:3": -192
         },
-        "98:10": {
+        "97:10": {
           "id:3": 834,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 568,
           "y:3": -264
         },
-        "99:10": {
+        "98:10": {
           "id:3": 835,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 448,
           "y:3": -264
         },
-        "100:10": {
+        "99:10": {
           "id:3": 836,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 100,
           "y:3": -268
         },
-        "101:10": {
+        "100:10": {
           "id:3": 837,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 136,
           "y:3": -268
         },
-        "102:10": {
+        "101:10": {
           "id:3": 886,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 284,
           "y:3": -520
         },
-        "103:10": {
+        "102:10": {
           "id:3": 891,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 244,
           "y:3": -268
         },
-        "104:10": {
+        "103:10": {
           "id:3": 894,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 136,
           "y:3": -404
         },
-        "105:10": {
+        "104:10": {
           "id:3": 895,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 136,
           "y:3": -364
         },
-        "106:10": {
+        "105:10": {
           "id:3": 896,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 372,
           "y:3": -192
         },
-        "107:10": {
+        "106:10": {
           "id:3": 897,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 408,
           "y:3": -228
         },
-        "108:10": {
+        "107:10": {
           "id:3": 899,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 208,
           "y:3": -404
         },
-        "109:10": {
+        "108:10": {
           "id:3": 929,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 360,
           "y:3": -144
         },
-        "110:10": {
+        "109:10": {
           "id:3": 936,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 816,
           "y:3": -420
         },
-        "111:10": {
+        "110:10": {
           "id:3": 1040,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 172,
           "y:3": -364
         },
-        "112:10": {
+        "111:10": {
           "id:3": 1041,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 612,
           "y:3": -316
         },
-        "113:10": {
+        "112:10": {
           "id:3": 1052,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": -364
         },
-        "114:10": {
+        "113:10": {
           "id:3": 1076,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 408,
           "y:3": -264
         },
-        "115:10": {
+        "114:10": {
           "id:3": 1083,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 688,
           "y:3": -416
         },
-        "116:10": {
+        "115:10": {
           "id:3": 1092,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 408,
           "y:3": -192
         },
-        "117:10": {
+        "116:10": {
           "id:3": 1095,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 172,
           "y:3": -444
         },
-        "118:10": {
+        "117:10": {
           "id:3": 1097,
           "sizeX:3": 24,
           "sizeY:3": 24,
