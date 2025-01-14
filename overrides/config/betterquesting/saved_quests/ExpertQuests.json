@@ -17165,7 +17165,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Redstone§r, a §6Snowball§r, and §6Blizz Powder§r creates §6Cryotheum Dust§r, a mixture imbued with potent elemental frost.",
+          "desc:8": "§6Blizz Powder§r, §6Crushed Ice§r and some §9Liquid Nitrogen§r creates §6Gelid Cryotheum§r, a mixture imbued with potent elemental frost. You can then solidify this to produce §6Cryotheum Dust§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17219,7 +17219,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Redstone§r, §6Saltpeter§r, and §6Blitz Powder§r creates §6Aerotheum Dust§r, a mixture imbued with potent elemental air.",
+          "desc:8": "§6Blitz Powder§r, §6Saltpeter§r and some §9Nitric Acid§r creates §6Zephyrean Aerotheum§r, a mixture imbued with potent elemental air. You can then solidfy this to produce §6Aerotheum Dust§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17273,7 +17273,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Redstone§r, §6Obsidian Dust§r, and §6Basalz Powder§r creates §6Petrotheum Dust§r, a mixture imbued with potent elemental earth.",
+          "desc:8": "§6Basalz Powder§r, §6Obsidian§r and some §9Oil (any type)§r creates §6Tectonic Petrotheum§r, a mixture imbued with potent elemental earth. You can then solidify this to produce §6Petrotheum Dust§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17327,7 +17327,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Redstone§r, §6Sulfur§r, and §6Blaze Powder§r creates §6Pyrotheum Dust§r, a mixture imbued with potent elemental flame.",
+          "desc:8": "§6Blaze Powder§r, §6Sulfur§r and some §9Lava§r creates §6Blazing Pyrotheum§r, a mixture imbued with potent elemental flame. You can then solidify this to produce §6Pyrotheum Dust§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17381,7 +17381,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Bits of a §6Blaze Rod§r. Using a §3Macerator§r doubles your yield.",
+          "desc:8": "Bits of a §6Blaze Rod§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17435,7 +17435,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Bits of a §6Basalz Rod§r. Using a §3Macerator§r doubles your yield.",
+          "desc:8": "Bits of a §6Basalz Rod§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17489,7 +17489,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Bits of a §6Blitz Rod§r. Using a §3Macerator§r doubles your yield.",
+          "desc:8": "Bits of a §6Blitz Rod§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17543,7 +17543,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Bits of a §6Blizz Rod§r. Using a §3Macerator§r doubles your yield.",
+          "desc:8": "Bits of a §6Blizz Rod§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21898,7 +21898,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "ASSEMBLE... TOO!\n\nYeah you get to craft §6Nether Stars§r. Cool huh?\n\nAs you are in peaceful, you can\u0027t farm §eWithers§r.\n\nOnce you gain access to §6Tier 4.5 Micro Miners§r, they will become your best §6Nether Star§r source.",
+          "desc:8": "ASSEMBLE... TOO!\n\nYeah you get to craft §6Nether Stars§r. Cool huh?\n\nAs you are in peaceful, you can\u0027t farm §eWithers§r.\n\nOnce you gain access to §6Tier 4.5 Micro Miners§r, they will become your best §6Nether Star§r source. They can also give you §6Elemental Rods§r, supplementing your §6Elemental Powder§r supply.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
