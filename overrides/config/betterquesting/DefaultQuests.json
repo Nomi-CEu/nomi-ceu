@@ -13336,7 +13336,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "With §6Tungstensteel§r achieved, you can now make hulls for Insane Voltage (IV) §bGregTech§r machines.\n\n§2Starting at IV, 16A Energy and Dynamo hatches are available at each tier.§r",
+          "desc:8": "With §6Tungstensteel§r achieved, you can now make hulls for Insane Voltage (IV) §bGregTech§r machines.\n\nThis unlocks shortcut recipes for §bAE2 §6Processors§r in the §3Circuit Assembler§r.\n\n§2Starting at IV, 16A Energy and Dynamo hatches are available at each tier.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22909,7 +22909,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "With §6Titanium§r smelting automated, you can now build Machine Hulls for Extreme Voltage machines.\n\nEV motors require a better material than §6Steel§r for its magnetism.\n\n§6Neodymium§r is required, which is mainly achieved from §6Rare Earth§r. The main sources of this are §6Redstone§r, and everything inside of §6Bastnasite§r veins.\n\nEV Machine Hulls unlock a handful of nice things. Check the surrounding quests for more information.",
+          "desc:8": "With §6Titanium§r smelting automated, you can now build Machine Hulls for Extreme Voltage machines.\n\nEV motors require a better material than §6Steel§r for its magnetism.\n\n§6Neodymium§r is required, which is mainly achieved from §6Rare Earth§r. The main sources of this are §6Redstone§r, and everything inside of §6Bastnasite§r veins.\n\nEV Machine Hulls unlock a handful of nice things, including shortcut recipes for §bAE2 §6Fluix and Pure Crystals§r in the §3Autoclave§r. Check the surrounding quests for other useful features.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
