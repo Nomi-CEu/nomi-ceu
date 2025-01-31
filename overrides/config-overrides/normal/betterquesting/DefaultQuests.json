@@ -48349,7 +48349,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Farming Station§r is a machine that automates growing and harvesting trees and crops around it, based on what items you put in it.\n\nThe Farming Station will principally collect crops, saplings, and wood, but it will also collect things like §6Apples§r from Oak Trees and §6Sticky Resin§r from Rubber Trees. It can also collect leaves if you want it to.\n\nLike other §bEnderIO§r machines, it requires an §6RF capacitor§r. The quality of capacitor affects the overall size of the farm as well as the speed and energy at which it operates.\n\nYou can configure which crops or tree types will be planted relative to the Farming Station by placing the crop or sapling in the various quadrants in the GUI. Clicking the lock button will ensure that the stack placed there won\u0027t be completely consumed, as that could lead to plants migrating to other quadrants.\n\nIn addition to power, the Farming Station requires specific §etools§r (and usually a supply of §9Water§r) to operate. If you\u0027re missing anything, the machine will refuse to operate and displays a message over itself to let you know.\n\nFor planting §6crops§r or §6saplings§r, you need a §aHoe§r.\nFor chopping §6trees§r, you need an §aAxe§r. To collect §6leaves§r, you also need §aShears§r.\n\nTool durability is consumed as the farm performs work, so the tools will eventually break. You can make §aStone Tools§r from a cobblestone generator and some sticks, or even §aDiamond Tools§r using diamonds from your §3Deep Mob Evolution§r setup.\n\nAlternately, you can invest in fancier tools such as the §aDark Backhoe§r (which is designed for use in the Farming Station), or even unbreakable tools much later like the §aFlux Infused Axe§r and §aOmniwrench§r (shears).\n\nThe Farming Station also has a lesser-known feature: it respects enchantments and upgrades on your tools. Tools with §eEmpowered§r upgrades will be ejected into the output slots when they run out of charge (if they don\u0027t break first). Tools with the §eMending§r enchantment are similarly ejected when they are about to break.\n\nYou can use these properties to your advantage.",
+          "desc:8": "The §3Farming Station§r is a machine that automates growing and harvesting trees and crops around it, based on what items you put in it.\n\nThe Farming Station will principally collect crops, saplings, and wood, but it will also collect things like §6Apples§r from Oak Trees and §6Sticky Resin§r from Rubber Trees. It can also collect leaves if you want it to.\n\nLike other §bEnderIO§r machines, it requires an §6RF capacitor§r. The quality of capacitor affects the overall size of the farm as well as the speed and energy at which it operates.\n\nYou can configure which crops or tree types will be planted relative to the Farming Station by placing the crop or sapling in the various quadrants in the GUI. Clicking the lock button will ensure that the stack placed there won\u0027t be completely consumed, as that could lead to plants migrating to other quadrants.\n\nIn addition to power, the Farming Station requires specific §etools§r (and usually a supply of §9Water§r) to operate. If you\u0027re missing anything, the machine will refuse to operate and displays a message over itself to let you know.\n\nFor planting §6crops§r or §6saplings§r, you need a §aHoe§r.\nFor chopping §6trees§r, you need an §aAxe§r. To collect §6leaves§r, you also need §aShears§r.\n\nTool durability is consumed as the farm performs work, so the tools will eventually break. You can make §aStone Tools§r from a cobblestone generator and some sticks, crafted with a passive crafter, or even §aDiamond Tools§r using diamonds from your §3Deep Mob Evolution§r setup. See the \u0027Passive Crafters\u0027 quest for your options to passively craft tools.\n\nAlternately, you can invest in fancier tools such as the §aDark Backhoe§r (which is designed for use in the Farming Station), or even unbreakable tools much later like the §aFlux Infused Axe§r and §aOmniwrench§r (shears).\n\nThe Farming Station also has a lesser-known feature: it respects enchantments and upgrades on your tools. Tools with §eEmpowered§r upgrades will be ejected into the output slots when they run out of charge (if they don\u0027t break first). Tools with the §eMending§r enchantment are similarly ejected when they are about to break.\n\nYou can use these properties to your advantage.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -67054,6 +67054,111 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "1089:10": {
+      "preRequisiteTypes:7": [
+        1
+      ],
+      "preRequisites:11": [
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "As you begin expanding your automation sights, soon enough, you may come across a situation that requires you to passively craft something. In that case, you have three main options: §6Mechanical Crafters§r from §bExtra Utilities§r, §6Crafters§r from §bEnderIO§r, or §6Molecular Assemblers§r from §bApplied Energistics 2§r. Each have their pros and cons, so read carefully!\n\n§6Mechanical Crafters§r require no power. None at all! Simply place it down, set the recipe, and pipe inputs and outputs. However, the speed is quite slow... and to upgrade it, you will need §eGrid Power§r.\n\n§6Crafters§r (the ones from §bEnderIO§r) are setup in a similar way to their §bExtra Utilities§r counterpart, but they require power. However they are far easier to upgrade, simply requiring a better capacitor and more power. However, their top speed is not a match for the §6Mechanical Crafters§r\u0027 top speed.\n\nFinally, §6Molecular Assemblers§r have a faster base speed, are fairly easy to upgrade, and have a good top speed. However, they take more setup, and are more expensive.\n\nTo setup a molecular assembler for passive crafting, you need to encode a pattern for that crafting recipe, place that in the assembler, §cNOT an Interface§r, and pipe in inputs. Note that the assembler can auto-output, even to other assemblers, allowing for you to chain outputs!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "extrautils2:crafter"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Passive Crafters",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "OR",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1089,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nomilabs:nomicoin25"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:crafter"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "enderio:block_crafter"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:molecular_assembler"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -67614,6 +67719,13 @@
           "sizeY:3": 24,
           "x:3": -840,
           "y:3": 308
+        },
+        "77:10": {
+          "id:3": 1089,
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -480,
+          "y:3": 208
         }
       }
     },
@@ -73647,7 +73759,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
-          "y:3": 660
+          "y:3": 696
         },
         "47:10": {
           "id:3": 1022,
@@ -73823,6 +73935,13 @@
           "sizeY:3": 24,
           "x:3": 92,
           "y:3": 348
+        },
+        "72:10": {
+          "id:3": 1089,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": 660
         }
       }
     },
