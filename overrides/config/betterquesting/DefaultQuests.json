@@ -10127,7 +10127,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNote: this quest accepts both LV and MV Polarizer.§r\n\nAlthough you could §emagnetize §6Iron Ingots§r by hand using §6Redstone§r, doing that consumes considerable amounts of dust and that\u0027s not an option for more advanced materials. This machine will let you magnetize §6Steel Rods§r, as well as even more advanced materials later.\n\n§2Polarizer recipes in GTCEu go up to IV.§r",
+          "desc:8": "Note: this quest accepts both LV and MV Polarizer.\n\nAlthough you could §emagnetize §6Iron Ingots§r by hand using §6Redstone§r, doing that consumes considerable amounts of dust and that\u0027s not an option for more advanced materials. This machine will let you magnetize §6Steel Rods§r, as well as even more advanced materials later.\n\n§2Polarizer recipes in GTCEu go up to IV.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
