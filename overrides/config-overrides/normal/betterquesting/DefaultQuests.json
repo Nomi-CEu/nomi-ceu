@@ -33557,12 +33557,13 @@
     },
     "537:10": {
       "preRequisites:11": [
-        905
+        905,
+        1088
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§9Sterilized Growth Medium§r is needed for §6Wetware Circuits§r.\n\nYou\u0027ll need to mix §6Mincemeat§r, §2Calcium, Salt, Agar, and Mutagen§r with water in a mixer to make §9Raw Growth Medium§r, then use a §3Fluid Heater§r to sterilize it. §2This is a significantly more involved process than before.§r\n\nMincemeat comes from pulverizing any kind of animal meat. A §aPowered Spawner§r might be useful for this endeavor. §2Agar is produced from Mincemeat through multiple steps.§r",
+          "desc:8": "§9Sterilized Growth Medium§r is needed for §6Wetware Circuits§r.\n\nYou\u0027ll need to mix §6Mince Meat§r, §2Calcium, Salt, Agar, and Mutagen§r with water in a mixer to make §9Raw Growth Medium§r, then use a §3Fluid Heater§r to sterilize it, all inside a §eSterile Cleanroom§r. §2This is a significantly more involved process than before.\n\nAgar is produced from Mincemeat through multiple steps.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -66970,6 +66971,89 @@
           "taskID:8": "bq_standard:checkbox"
         }
       }
+    },
+    "1088:10": {
+      "preRequisites:11": [
+        53
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You are now going to need a supply of animal meat, to make §6Mincemeat§r. Since you need this in large amounts, and passively, you have two options:\n\n1. Make a §3Fisher§r. This consumes §6String§r, and requires a 5x5 pool of water, with the fisher centered on top. You might need more than 1!\n\n2. Setup an §6Animal Farm§r. This has the benefit of providing you with a supply of §6Leather§r (if you farm §eCows§r), and §6Experience§r.\n\nTo setup a farm, first, you will need a §6Broken Spawner§r, which you can obtain from breaking any §6Spawner§r. (Try the §aLost Cities§r!) You have to combine this in a §bSoul Binder§r with a §6Soul Vial§r set to the animal you wish to farm, and then you combine the resulting broken spawner with a §6Powered Spawner§r in an §bAnvil§r.\n\nNow, you can place this spawner in an enclosed area. You can line the floor with §6Vector Plates§r to move the animals to a more concentrated location, and then simply give the spawner a capacitor and RF.\n\nThe easiest way to kill the animals is with §bExtra Utilities §6Gold or Diamond Spikes§r; you can then collect the items and experience with §bEnderIO§r\u0027s §eVacuum Chest§r and §eXP Vacuum§r.\n\nYou can also be more creative if you want... but this quest still needs those to be completed. If you setup a live exposed wire line with a constant power source and sink, so be it, but you still need those spikes.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1616,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_dust"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Shredding Up Animals",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "OR",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1088,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1515,
+              "OreDict:8": "questbookFisher",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "enderio:block_powered_spawner"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "darkutils:trap_move"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "questbookSpike",
+              "id:8": "extrautils2:spike_diamond"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -70988,6 +71072,13 @@
           "sizeY:3": 48,
           "x:3": 148,
           "y:3": -12
+        },
+        "129:10": {
+          "id:3": 1088,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -388,
+          "y:3": 328
         }
       }
     },

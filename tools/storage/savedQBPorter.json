@@ -513,6 +513,10 @@
       "expert": 535
     },
     {
+      "normal": 537,
+      "expert": 537
+    },
+    {
       "normal": 540,
       "expert": 540
     },
@@ -943,6 +947,10 @@
     {
       "normal": 1087,
       "expert": 1103
+    },
+    {
+      "normal": 1088,
+      "expert": 1104
     }
   ],
   "ignoreQuestsNormal": [

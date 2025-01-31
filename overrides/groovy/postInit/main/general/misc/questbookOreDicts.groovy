@@ -37,3 +37,12 @@ ore('questbookConveyor').add(metaitem('conveyor.module.lv'))
 for (def color : EnumDyeColor.values()) {
 	ore('questbookChemicalDye').add(metaitem("dye.${color.getName()}"))
 }
+
+// Fishers
+for (def tier : ['lv', 'mv', 'hv', 'ev']) {
+	ore('questbookFisher').add(metaitem("fisher.${tier}"))
+}
+
+// Spikes
+ore('questbookSpike').add(item('extrautils2:spike_gold'))
+ore('questbookSpike').add(item('extrautils2:spike_diamond'))
