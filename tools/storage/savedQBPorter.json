@@ -939,6 +939,10 @@
     {
       "normal": 1086,
       "expert": 1102
+    },
+    {
+      "normal": 1087,
+      "expert": 1103
     }
   ],
   "ignoreQuestsNormal": [

@@ -56776,7 +56776,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "As you expand your production lines, it can get confusing where everything is real quickly.\n\nNew in GTCEu, you can §2name machines in an Anvil§r or shift-right-click with a §6Name Tag§r in order to display a hologram above them. This hologram can\u0027t be seen through walls, so you needn\u0027t worry about clogging your view with names.",
+          "desc:8": "As you expand your production lines, it can get confusing where everything is real quickly.\n\nNew in GTCEu, you can §2name machines in an Anvil§r or shift-right-click with a §6Name Tag§r in order to display a hologram above them. This hologram can\u0027t be seen through walls, so you needn\u0027t worry about clogging your view with names.\n\nYou can also place items in-world via §bDraconic Evolution§r\u0027s place in-world feature, of which the default keybind is §aP§r. To pick placed items back up, simply §aright-click§r. This can be a more visually unique way to label machines, but may be less visible.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -66928,6 +66928,48 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "1087:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
+      "preRequisites:11": [
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You can visually place items using the §ePlace Item in World§r feature from §bDraconic Evolution§r. The default keybind for this is §aP§r. Picking back up items is as simple as §aright-clicking§r.\n\nOne application is to use this to label your machines, as a more visually distinct alternative to signs. You can also place items near where you want them (e.g. §6Molds§r), or just use this for decoration.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:item_frame"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Put Down the Cell, Freeman!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1087,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -72316,7 +72358,7 @@
           "id:3": 1023,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -216,
+          "x:3": -180,
           "y:3": 240
         },
         "60:10": {
@@ -72367,6 +72409,13 @@
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": 186
+        },
+        "67:10": {
+          "id:3": 1087,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -216,
+          "y:3": 240
         }
       }
     },
