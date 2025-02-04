@@ -46,3 +46,7 @@ for (def tier : ['lv', 'mv', 'hv', 'ev']) {
 // Spikes
 ore('questbookSpike').add(item('extrautils2:spike_gold'))
 ore('questbookSpike').add(item('extrautils2:spike_diamond'))
+
+// Fission Casings
+ore('questbookFissionCasings').add(item('nuclearcraft:fission_block'))
+ore('questbookFissionCasings').add(item('nuclearcraft:reactor_casing_transparent'))

@@ -19740,7 +19740,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The full complexity of §bNuclearCraft§r is far too much for the scope of this quest guide, so §eyou\u0027re encouraged to watch a tutorial or read a guide online§r.\n\n§eIn Nomi-CEu, Fission Reactors will not meltdown when overheated!§r However, §cpower production and fuel consumption will stop§r, so having a reactor overheat will most likely not be efficient.\n\nFor the purposes of this particular quest, you\u0027ll be building a breeder reactor to make §6Plutonium§r, and other nuclear elements. While this reactor may seem very expensive, it will be worth it, and you will probably expand it soon.\n\nThis reactor is capable of running any Low-Enriched fuel, such as TBU and LEU-235. This is a basic reactor and can be expanded, following the same pattern, to run faster. Alternatively, reactors can be designed to produce a decent amount of power for the mid game of the pack.\n\nFirst, set up your 150 §6Fission Reactor Casings§r to encase a 5x5x5 cube shape of empty air. Any of these reactor casings can be changed to §6Transparent Fission Reactor Casings§r. The Casings should only cover the faces of the interior cube, not the edges or corners. You should have exactly the right number of Casings to encase a 5x5x5 space.\n\nNext, create a hole so you can get inside the cube. Place the §6Reactor Cells§r in an alternating pattern, with the reactor cells at the corners, and spaces between each one. Alternate between each row, creating a grid pattern. Fill in the §6Cryotheum Coolers§r between, in the empty holes. Do this for every layer, alternating between §6Cryotheum Coolers§r on the corners and §6Reactor Cells§r on the corners. You should have the perfect amount of §6Reactor Cells§r and §6Cryotheum Coolers§r for this, and the third and final layers should be the same as the first one. The reactor will now be complete when you reseal it up with the Casings you removed to access the interior.\n\nFinally, place the §3Fission Reactor Controller§r along any edge or corner of the reactor. Opening the Reactor Controller GUI should let you know that the structure was properly formed; if not, go back and check what you did wrong.\n\nThe lever is placed on the reactor, as a redstone signal is required for it to start working.",
+          "desc:8": "The full complexity of §bNuclearCraft§r is far too much for the scope of this quest guide, so §eyou\u0027re encouraged to watch a tutorial or read a guide online§r. However, the surrounding quests will give you a general overview, and lead towards resources to plan your reactors.\n\n§eIn Nomi-CEu, Fission Reactors will not meltdown when overheated!§r However, §cpower production and fuel consumption will stop until the heat is reduced§r, so having a reactor overheat will most likely not be efficient.\n\nThere are six main parts to a reactor:\n\n* §eThe Controller§r: Controls whether the reactor is turned on, and allows manual accessing of reactor fuels and products. By default, a reactor is off, and is only turned on when a §credstone signal§r is provided. §eRequired for a reactor to form.§r\n\n* §eFission Casings§r: These come in opaque and transparent variants, and must form a solid box around the reactor contents. §aThe edges may be excluded. §eRequired for a reactor to form.§r\n\n* §eFission Buffers§r: Allow extra access points for automation to access reactor fuels, products and power storage. Also allows entry points for coolant. Replaces Fission Casing locations. §eOptional.§r\n\n* §eReactor Cells§r: These are the main component for reactors, and is where the reaction \u0027takes place\u0027. More reactor cells leads to higher fuel consumption, more heat generated, and more power generated. §eRequired for a reactor to operate.§r\n\n* §eModerator Blocks§r: These increase power generation and fuel efficiency, at the expense of increasing heat generated. §eOptional.§r\n\n* §ePassive Coolers§r: These are the main way to cool a fission reactor, and they have special placement rules, as seen by their tooltip. Fission reactors must be cooled, preferably at a similar amount as the heat produced. §eRequired for a reactor to operate.§r\n\n* §eActive Coolers§r: These are the only blocks inside a fission reactor that actively consumes resources, which can be piped in by buffers, or by other methods such as §3Phantom Liquifaces§r. They consume §a10 mb/s§r of coolant, in exchange for a lot more cooling than passive coolers provide. Note that they abide by the same placement rules as their passive counterparts. §cIf coolant runs out, active coolers produce 0 cooling! §eOptional.§r\n\nCheck out the surrounding quests for how to proceed with fission: a process that will net you §6valuable resources§r, and be a §6powerful power generator§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19781,30 +19781,6 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "nuclearcraft:fission_controller_new_fixed"
-            },
-            "1:10": {
-              "Count:3": 63,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:cell_block"
-            },
-            "2:10": {
-              "Count:3": 62,
-              "Damage:2": 10,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:cooler"
-            },
-            "3:10": {
-              "Count:3": 150,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "nuclearcraft:fission_block"
-            },
-            "4:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "minecraft:lever"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -35850,7 +35826,7 @@
     },
     "671:10": {
       "preRequisites:11": [
-        350
+        1108
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -35910,17 +35886,17 @@
     },
     "672:10": {
       "preRequisiteTypes:7": [
-        0,
-        2
+        2,
+        0
       ],
       "preRequisites:11": [
-        350,
-        899
+        899,
+        1108
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Climbing the ladder of fissile materials will require some specific raw materials and machinery.\n\n§2Uraninite is the base resource you will need, which comes from Uraninite and Pitchblende Ore. You will need to react it with Fluorine and Hydrofluoric Acid in a Chemical Reactor to form Uranium Hexafluoride.\n\nThe Uranium Hexafluoride must then be separated into Depleted and Enriched Uranium Hexafluoride in a Centrifuge. The Depleted UF₆ will grant Uranium-238, while the Enriched UF₆ will grant Uranium-235.\n\nYou may find Red Granite as a viable source of Uranium-238 if you are able to process it in large enough volumes to offset the low base chance.§r",
+          "desc:8": "Climbing the ladder of fissile materials will require some specific raw materials and machinery. One of the raw materials you can start with is §6Uranium§r.\n\n§2In Nomi-CEu, producing Uranium requires a small enrichment chain.§r\n\nThis chain begins with §6Uraninite§r, the base resource, coming from §6Uraninite§r and §6Pitchblende Ore§r. You will need to react it with §9Fluorine§r and §9Hydrofluoric Acid§r in a §3Chemical Reactor§r to form §6Uranium Hexafluoride§r.\n\nThe Uranium Hexafluoride must then be separated into Depleted and Enriched Uranium Hexafluoride in a §3Centrifuge§r. The Depleted UF₆ will grant §6Uranium-238§r, while the Enriched UF₆ will grant §6Uranium-235§r.\n\nFor extra Uranium-238, processing crushed §6Red Granite§r is a good passive source. The chance is low though, so you will have to process it in large volumes!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -35932,7 +35908,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 1,
-          "name:8": "§2Uranium Fuel Infrastructure§r",
+          "name:8": "§2Uranium Processing§r",
           "partysinglereward:1": 0,
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
@@ -45119,7 +45095,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You can get Americium from NuclearCraft progression, but you can also fuse it. First combine Lanthanum with Silicon to make Lutetium, then combine it with Chrome to get Americium.\n\n§2Americium is used in larger quantities in CEu progression. You cannot convert this form of Americium to NuclearCraft Americium isotopes.§r",
+          "desc:8": "You can get §6Americium§r from §bNuclearCraft§r progression, but you can also fuse it. First combine §6Lanthanum§r with §6Silicon§r to make §6Lutetium§r, then combine it with §6Chrome§r to get §6Americium§r.\n\nThis GTCEu ingot can be produced by fusion method mentioned above, or converted from NuclearCraft isotopes, first by turning them into their fluid form.\n\n§2Americium is used in large quantities in CEu progression.\n\n§cYou cannot convert this form of Americium to NuclearCraft Americium isotopes!§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -58058,6 +58034,212 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "1106:10": {
+      "preRequisites:11": [
+        350
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "There are two main types of §3Fission Reactors§r: §aBreeder§r and §aPower§r reactors. A breeder reactor is a reactor optimized to generate §bfission products the fastest§r. A power reactor, on the other hand, is optimized to generate the §bmost power it can§r.\n\nYou will need at least one breeder reactor, but whether you pursue power generation is up to you. §eHowever, Fission Reactors are a good power source, and can greatly improve power stability!§r\n\nA breeder reactor\u0027s only important factor is §ahow much reactor cells it has§r, and §astaying heat neutral/negative§r. A reactor with two times more reactor cells will generate two times more fission products as long as they are both heat neutral.\n\nThe most common design for a breeder reactor is the §9Cryolattice§r, explained in the following quests. While this is not the most efficient, as using §eActive Cooling§r can improve your efficiency, constantly consuming coolant may not be preferred, and breeder reactors do not need active coolers to produce products fast.\n\nHowever, a power focused reactor has many more considerations, including considering the balance of §6Reactor Cells§r and §6Moderator Blocks§r, to improve §afuel efficiency§r, §astaying heat neutral/negative§r and §amaximize power generation§r. Because of the extra heat generated by moderator blocks, power reactors should pretty much always use active cooling, making them §cmore expensive to maintain§r. These extra considerations also mean there is no easy optimal design.\n\nFor power reactors in Nomi-CEu, you probably want to focus on using §eTBU Fuel§r, through §6Thorium§r obtained through §6Black Granite§r. You can also combine this with another reactor that uses §eLEU-233 Fuel§r, obtained through §6Uranium 233§r gained from §6TBU Recycling§r and §6Uranium 238§r from §6Red Granite§r. The latter will generate a lot more energy, but need more supporting infrastructure.\n\nTo plan these, you will need an alternative rather than a guide... a reactor planner,... or a reactor generator? Check out the following quests.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nuclearcraft:cell_block"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Fission Reactor Types",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1106,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1107:10": {
+      "preRequisites:11": [
+        1106
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Since power reactors are so complex, you\u0027ll need a program to design them. Enter: §areactor generators and designers§r! (You can also design breeder reactors if you want)\n\nReactor generators allow you to simply use an algorithm to find an efficient reactor, using your chosen fuel. While these can generate worse reactors, especially with active coolers, than designing it yourself, they save lots of time.\n\nIn contrast, reactor designers allow you to design a reactor outside of the game, and see its fuel consumption, power production, heat, and more, allowing you to save hours of your time manually building reactors in-game. These can be used to §atweak generated reactors§r, or even §amanually designing a reactor from scratch§r, which can lead to very efficient reactors, fine tuned to your specific situation.\n\n§eWhen designing power reactors, consider using Cryotheum Active Coolers as your coolers! Perhaps, even your ONLY coolers!\n\n§aNomi-CEu increases power generation from Fission Reactors to 7x the base values. Please take this into mind when designing reactors. Also, note that fuel burn times, fuel heat productions, and cooler values are not changed from the base values.\n\n§cNote that Oxide Fuels are not available in Nomi-CEu!§r\n\nFor generating reactors, consider using §bhttps://leu-235.com§r. This is a simple online reactor generator, that allows you to specify what blocks to include, and what blocks not to. It is simple to use, pretty low effort, and allows you to generate working, decent reactors with a very little amount of time spent.\n\nDesigning reactors can be done through two main programs:\n\n* §eHellrage\u0027s Nuclear Reactor Planner§r: This is an easy to use yet functionally dense planner. Its downloads can be found at §bhttps://github.com/hellrage/NC-Reactor-Planner/releases/tag/v1.2.25§r. §cNote: it does not work on Mac, and doesn\u0027t function well on Linux.§r\n\n* §eEinsteinium§r: This is also an easy to use planner, but has less features than Hellrage\u0027s planner. However, it has the advantage of being a web-based service, so no app needs to be downloaded, and §afunctions on Mac and Linux§r. It can be found at §bhttps://balam314.github.io/Einsteinium/§r.\n\nBut now you\u0027ve designed the reactor, you don\u0027t want to build it manually, do you? Well, see the next quest then!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nuclearcraft:active_cooler"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Planning Reactors",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1107,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1108:10": {
+      "preRequisites:11": [
+        1106
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oNote: This quest accepts any combination of Transparent and Opaque Fission Reactor Casings, as long as the amount of the casings combined is more than 150.§r\n\nThis quest teaches you to build a §6Cryolattice§r, a simple breeder reactor to get you all the §bNuclearCraft§r isotopes you need. This reactor is easily expandable by following the same pattern, to run faster.\n\nThis reactor is capable of running any Low-Enriched Fuel, such as TBU and LEU-235.\n\n§eYou don\u0027t need a breeder reactor for every fission fuel! Your power reactors consume fuel quickly, so any fuels they consume don\u0027t need to be bred. You can also combine different fuels into one reactor!§r\n\nFirst, set up your 150 §6Fission Reactor Casings§r to encase a 5x5x5 cube shape of empty air. Any of these reactor casings can be changed to §6Transparent Fission Reactor Casings§r. The Casings should only cover the faces of the interior cube, not the edges or corners. You should have exactly the right number of Casings to encase a 5x5x5 space.\n\nNext, create a hole so you can get inside the cube.\n\nPlace the §6Reactor Cells§r in an alternating pattern, with the reactor cells at the corners, and spaces between each one. Alternate between each row, creating a grid pattern. Fill in the §6Cryotheum Coolers§r between, in the empty holes. Do this for every layer, alternating between §6Cryotheum Coolers§r on the corners and §6Reactor Cells§r on the corners.\n\nYou should have the perfect amount of §6Reactor Cells§r and §6Cryotheum Coolers§r for this, and the third and final layers should be the same as the first one. The reactor will now be complete when you reseal it up with the Casings you removed to access the interior.\n\nFinally, place the §3Fission Reactor Controller§r along any edge or corner of the reactor. Opening the Reactor Controller GUI should let you know that the structure was properly formed; if not, go back and check what you did wrong.\n\nThe lever is placed on the reactor, as a redstone signal is required for it to start working.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 10,
+            "OreDict:8": "",
+            "id:8": "nuclearcraft:cooler"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "A Simple Breeder",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1108,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 63,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nuclearcraft:cell_block"
+            },
+            "1:10": {
+              "Count:3": 62,
+              "Damage:2": 10,
+              "OreDict:8": "",
+              "id:8": "nuclearcraft:cooler"
+            },
+            "2:10": {
+              "Count:3": 150,
+              "Damage:2": 0,
+              "OreDict:8": "questbookFissionCasings",
+              "id:8": "nuclearcraft:fission_block"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:lever"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1109:10": {
+      "preRequisites:11": [
+        755,
+        1107
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You can export your generated or designed reactors to a §eBG String§r, which allows you to paste them in-world through the §6Copy Paste Gadget§r.\n\n§eIf you have generated your reactor through leu-235, you must export it as a JSON, then import it in Hellrage\u0027s Planner or Einsteinium first!\n\n§aYou may prefer exporting your reactors to Einsteinium, even from Hellrage\u0027s Planner, before this process.§r This is because Einsteinium allows you to §epaste in Active Coolers§r, whilst Hellrage\u0027s Planner does not.\n\nFirst, export your reactor as the string. Save this in a text file, so you don\u0027t lose it if you accidentally replace your clipboard.\n\nHowever, Nomi-CEu uses different moderator blocks from base NC. So, to fix this, via a text editor or §bhttps://www.joydeepdeb.com/tools/find-replace.html§r, make one, or both, of the below text replacements through the entire string:\n\n§eIf you designed with Graphite Moderators:\n§o{Properties:{type:\"graphite\"},Name:\"nuclearcraft:ingot_block\"}§r to §o{Name:\"gregtech:meta_block_compressed_12\",Properties:{variant:\"gregtech__graphite\"}}\n\n§eIf you designed with Beryllium Moderators:\n§o{Properties:{type:\"beryllium\"},Name:\"nuclearcraft:ingot_block\"}§r to §o{Name:\"gregtech:meta_block_compressed_2\",Properties:{variant:\"gregtech__beryllium\"}}§r\n\nNow, simply copy your string to your clipboard. Enter the §3Template Manager§r, and place a piece of §6Paper§r in the right hand slot. Now, press the §aPaste§r button, and the paper will turn into a §6Template§r!\n\nPlace your §6Copy Paste Gadget§r in the left hand slot, and click §aImport§r. Now, in \u0027paste mode\u0027, your gadget can place your newly designed reactor!\n\nRemember to surround the interior with §6Reactor Casings§r, §6Buffers§r where required, and place down a §6Fission Controller§r with a §6Lever§r to turn the reactor on.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "buildinggadgets:template",
+            "tag:10": {
+              "UUID:8": "f62e0c5b-31f2-43c3-ac3e-a621b7257d1b"
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Building Reactors, Fast",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 1109,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "buildinggadgets:templatemanager"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -60038,77 +60220,77 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -176,
-          "y:3": 276
+          "y:3": 348
         },
         "86:10": {
           "id:3": 671,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -104,
-          "y:3": 240
+          "y:3": 312
         },
         "87:10": {
           "id:3": 672,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -176,
-          "y:3": 240
+          "y:3": 312
         },
         "88:10": {
           "id:3": 673,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -104,
-          "y:3": 276
+          "y:3": 348
         },
         "89:10": {
           "id:3": 674,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -140,
-          "y:3": 276
+          "y:3": 348
         },
         "90:10": {
           "id:3": 675,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -140,
-          "y:3": 312
+          "y:3": 384
         },
         "91:10": {
           "id:3": 676,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -140,
-          "y:3": 348
+          "y:3": 420
         },
         "92:10": {
           "id:3": 677,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -104,
-          "y:3": 312
+          "y:3": 384
         },
         "93:10": {
           "id:3": 678,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -176,
-          "y:3": 348
+          "y:3": 420
         },
         "94:10": {
           "id:3": 679,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -104,
-          "y:3": 348
+          "y:3": 420
         },
         "95:10": {
           "id:3": 680,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -152,
-          "y:3": 384
+          "y:3": 456
         },
         "96:10": {
           "id:3": 690,
@@ -60167,256 +60349,291 @@
           "y:3": 148
         },
         "104:10": {
+          "id:3": 755,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -68,
+          "y:3": 240
+        },
+        "105:10": {
           "id:3": 773,
           "sizeX:3": 0,
           "sizeY:3": 0,
           "x:3": -128,
           "y:3": 76
         },
-        "105:10": {
+        "106:10": {
           "id:3": 783,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -732,
           "y:3": 452
         },
-        "106:10": {
+        "107:10": {
           "id:3": 785,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -380,
           "y:3": 252
         },
-        "107:10": {
+        "108:10": {
           "id:3": 798,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -176,
-          "y:3": 312
+          "y:3": 384
         },
-        "108:10": {
+        "109:10": {
           "id:3": 799,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -236,
           "y:3": 288
         },
-        "109:10": {
+        "110:10": {
           "id:3": 800,
           "sizeX:3": 0,
           "sizeY:3": 0,
           "x:3": -248,
           "y:3": 76
         },
-        "110:10": {
+        "111:10": {
           "id:3": 806,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -260,
           "y:3": 100
         },
-        "111:10": {
+        "112:10": {
           "id:3": 807,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -260,
           "y:3": 32
         },
-        "112:10": {
+        "113:10": {
           "id:3": 825,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -792,
           "y:3": -48
         },
-        "113:10": {
+        "114:10": {
           "id:3": 826,
           "sizeX:3": 40,
           "sizeY:3": 40,
           "x:3": -800,
           "y:3": -104
         },
-        "114:10": {
+        "115:10": {
           "id:3": 827,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -384,
           "y:3": 152
         },
-        "115:10": {
+        "116:10": {
           "id:3": 828,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -348,
           "y:3": 284
         },
-        "116:10": {
+        "117:10": {
           "id:3": 838,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -596,
           "y:3": 288
         },
-        "117:10": {
+        "118:10": {
           "id:3": 841,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -308,
           "y:3": 324
         },
-        "118:10": {
+        "119:10": {
           "id:3": 849,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -380,
           "y:3": 324
         },
-        "119:10": {
+        "120:10": {
           "id:3": 850,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -348,
           "y:3": 320
         },
-        "120:10": {
+        "121:10": {
           "id:3": 851,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -308,
           "y:3": 288
         },
-        "121:10": {
+        "122:10": {
           "id:3": 852,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -68,
-          "y:3": 312
+          "y:3": 384
         },
-        "122:10": {
+        "123:10": {
           "id:3": 857,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -708,
           "y:3": 324
         },
-        "123:10": {
+        "124:10": {
           "id:3": 858,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -492,
           "y:3": 320
         },
-        "124:10": {
+        "125:10": {
           "id:3": 859,
           "sizeX:3": 64,
           "sizeY:3": 64,
           "x:3": -508,
           "y:3": 376
         },
-        "125:10": {
+        "126:10": {
           "id:3": 888,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -104,
           "y:3": 28
         },
-        "126:10": {
+        "127:10": {
           "id:3": 892,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -792,
           "y:3": 452
         },
-        "127:10": {
+        "128:10": {
           "id:3": 899,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -828,
           "y:3": -48
         },
-        "128:10": {
+        "129:10": {
           "id:3": 900,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -144,
           "y:3": 24
         },
-        "129:10": {
+        "130:10": {
           "id:3": 912,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -452,
           "y:3": 252
         },
-        "130:10": {
+        "131:10": {
           "id:3": 921,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -640,
           "y:3": -32
         },
-        "131:10": {
+        "132:10": {
           "id:3": 934,
           "sizeX:3": 24,
           "sizeY:3": 25,
           "x:3": -344,
           "y:3": 396
         },
-        "132:10": {
+        "133:10": {
           "id:3": 1032,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -744,
           "y:3": 364
         },
-        "133:10": {
+        "134:10": {
           "id:3": 1045,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -816,
           "y:3": 324
         },
-        "134:10": {
+        "135:10": {
           "id:3": 1047,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -816,
           "y:3": 288
         },
-        "135:10": {
+        "136:10": {
           "id:3": 1053,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -344,
           "y:3": 252
         },
-        "136:10": {
+        "137:10": {
           "id:3": 1078,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -416,
           "y:3": 396
         },
-        "137:10": {
+        "138:10": {
           "id:3": 1090,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -780,
           "y:3": 364
         },
-        "138:10": {
+        "139:10": {
           "id:3": 1091,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -708,
           "y:3": 364
         },
-        "139:10": {
+        "140:10": {
           "id:3": 1102,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -672,
           "y:3": 452
+        },
+        "141:10": {
+          "id:3": 1106,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -140,
+          "y:3": 276
+        },
+        "142:10": {
+          "id:3": 1107,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -104,
+          "y:3": 276
+        },
+        "143:10": {
+          "id:3": 1108,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -140,
+          "y:3": 312
+        },
+        "144:10": {
+          "id:3": 1109,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -68,
+          "y:3": 276
         }
       }
     },
