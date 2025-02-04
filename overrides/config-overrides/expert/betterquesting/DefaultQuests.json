@@ -2210,7 +2210,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This alloy is made from §2mixing 2 Gold Dust, 1 Redstone, and 1 Glowstone Dust§r and putting it in a mixer, then your new §3Electric Blast Furnace (EBF)§r.\n\nThrow §2the prepared dust into the input bus§r and in twenty seconds your §6Energetic Alloy Ingot§r will be in the output bus.\n\nYou might want to consider getting some §9Nitrogen§r, which speeds up EBF recipes. See the \"Basic Air Collection\" quest to start your journey. For this recipe, it reduces the duration to 13.7 seconds.\n\n§2In EV, you can build an Alloy Blast Smelter, which doubles the yield.§r",
+          "desc:8": "This alloy is made from §2mixing 2 Gold Dust, 1 Redstone, and 1 Glowstone Dust§r and putting it in a mixer, then your new §3Electric Blast Furnace (EBF)§r.\n\nThrow §2the prepared dust into the input bus§r and in twenty seconds your §6Energetic Alloy Ingot§r will be in the output bus.\n\nIn §bMV§r, you can use §9Nitrogen§r to cut the smelting duration by half.\n\n§2In EV, you can build an Alloy Blast Smelter, which doubles the yield.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4193,7 +4193,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "With your EBF running, start to create a supply of §6Aluminium Ingots§r. These are crucial ingredients for MV machines, including §bApplied Energistics§r.\n\n§2With LV power, you can only get Aluminium Dust from electrolyzing Sapphire Dust or Green Sapphire Dust. Once you make an MV Electrolyzer, you can get it from a plethora of other raw resources.§r\n\nIf you find your power supply is faltering, you may want to make additional dynamos and turn them into steam boilers and turbines. Upgrading your dynamos is also advisable.\n\nHowever, you\u0027re also about to reach MV. You\u0027re bound to discover a better power source than steam before long.\n\n§2You can cut by a third the smelting time of Aluminium and some other smelting processes with Nitrogen gas. Higher-tier processes may take different gases.§r",
+          "desc:8": "With your EBF running, start to create a supply of §6Aluminium Ingots§r. These are crucial ingredients for MV machines, including §bApplied Energistics§r.\n\n§2With LV power, you can only get Aluminium Dust from electrolyzing Sapphire Dust or Green Sapphire Dust. Once you make an MV Electrolyzer, you can get it from a plethora of other raw resources.§r\n\nIf you find your power supply is faltering, you may want to make additional dynamos and turn them into steam boilers and turbines. Upgrading your dynamos is also advisable.\n\nHowever, you\u0027re also about to reach MV. You\u0027re bound to discover a better power source than steam before long.\n\n§2You can cut by a third the smelting time of Aluminium and some other smelting processes with various gases.§r The first tier of these, §9Nitrogen§r, will be available to you in §bMV§r. Higher-tier processes may take different gases.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9820,7 +9820,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§9Nitrogen§r comprises 78% of the atmosphere. Although it might take a while, you will start accumulating a large amount of it. Simply start placing your placing your collected §9Air§r into a §bCentrifuge§r!\n\nEven so, don\u0027t void it unless you have secured a very large stockpile. Storage is cheap and Nitrogen is used in sizeable quantities for several notable things, such as speeding up some §bElectric Blast Furnace§r recipes, making §6Phosphorus-Doped Silicon Boules§r, and making §6Cetane-Boosted Diesel§r.\n\nSince it has so many uses, make sure you have §eautomated§r the process of making §9Nitrogen§r. Yes, do it now! You\u0027ll thank yourself when you start running §bElectric Blast Furnace§r recipes.",
+          "desc:8": "§9Nitrogen§r comprises 78% of the atmosphere. Although it might take a while, you will start accumulating a large amount of it. Simply start placing your placing your collected §9Air§r into a §bCentrifuge§r!\n\nEven so, don\u0027t void it unless you have secured a very large stockpile. Storage is cheap and Nitrogen is used in sizeable quantities for several notable things, such as speeding up some §bElectric Blast Furnace§r recipes, making §6Phosphorus-Doped Silicon Boules§r, and making §6Cetane-Boosted Diesel§r.\n\nSince it has so many uses, and your current centrifuge method is slow, make sure you have §epassively automated§r the process of making §9Nitrogen§r. Yes, do it now! You\u0027ll thank yourself when running §bElectric Blast Furnace§r recipes.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9869,12 +9869,12 @@
     },
     "174:10": {
       "preRequisites:11": [
-        146
+        79
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Note: this quest accepts LV/MV/HV/EV §3Gas Collectors§r.\n\nA §3Gas Collector§r will suck up air at a decent rate, provided the top side is unobstructed. The collected Air is automatically ejected into an adjacent tank via the output face.\n\n§2Gas Collectors in the Nether and End will collect Nether Air and Ender Air respectively, which yield different products.§r\n\nIV+ air collectors are not part of this quest, but for reference they exist and are called §3Atmosphere Collectors§r.",
+          "desc:8": "Note: this quest accepts LV/MV/HV/EV §3Gas Collectors§r.\n\nA §3Gas Collector§r will suck up air at a decent rate, provided the top side is unobstructed. The collected Air is automatically ejected into an adjacent tank via the output face.\n\nPut your §3Cutting Machine§r to work for those §6Lapis Plates§r you\u0027ll need! §6Soladite§r or §6Lazurite§r work too.\n\n§2Gas Collectors in the Nether and End will collect Nether Air and Ender Air respectively, which yield different products. Make sure you set the correct circuit configuration for the dimension you are in.§r\n\nIV+ air collectors are not part of this quest, but for reference they exist and are called §3Atmosphere Collectors§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22084,7 +22084,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "CHAIN"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 394,
@@ -43220,7 +43220,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "CHAIN"
         }
       },
       "questID:3": 819,
@@ -47157,7 +47157,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "UNLOCKED"
         }
       },
       "questID:3": 890,
@@ -54902,25 +54902,24 @@
       }
     },
     "1050:10": {
-      "preRequisites:11": [
-        53
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis quest accepts LV, MV or HV Miner.§r\n\nThe §3Miner§r mines ore blocks directly below it in a certain radius. Higher tier Miners operate faster and have larger covered areas.\n\nThe LV Miner calls for an §6LV Sensor§r, which requires a bit of §6Quartzite§r.\n\nAlthough there is no Singleblock Miner at §5EV§r, you can build §3Large Miners§r at §9IV§r.",
+          "desc:8": "Unused Gap Quest. Prevents Overriding Of IDs.",
           "globalshare:1": 0,
           "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 920,
+            "Count:3": 0,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "gregtech:machine"
+            "id:8": "minecraft:air"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
-          "issilent:1": 0,
+          "issilent:1": 1,
           "lockedprogress:1": 0,
-          "name:8": "Automatic Mining",
+          "name:8": "Gap",
+          "partysinglereward:1": 0,
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -54928,29 +54927,15 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "HIDDEN"
         }
       },
       "questID:3": 1050,
       "rewards:9": {},
       "tasks:9": {
         "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 920,
-              "OreDict:8": "questbookSingleMiner",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:checkbox"
         }
       }
     },
@@ -57226,7 +57211,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis quest accepts Steam, LV, MV or HV Miner.§r\n\nThe §3Miner§r mines ore blocks directly below it in a certain radius. Higher tier Miners operate faster and have larger covered areas.\n\nIf you are using a §3Steam Miner§r, you can setup simple steam production, perhaps through §3Solar Boilers§r, or transport steam to the desired location through drums. If you are using electrical ones, you could setup some simple power production or carry it across in batteries.\n\nAt §9IV§r tier, you can build §3Drilling Plants§r instead.",
+          "desc:8": "§oThis quest accepts Steam, LV, MV or HV Miner.§r\n\nThe §3Miner§r mines ore blocks directly below it in a certain radius. Higher tier Miners operate faster and have larger covered areas.\n\nIf you are using a §3Steam Miner§r, you can setup simple steam production, perhaps through §3Solar Boilers§r, or transport steam to the desired location through drums. If you are using electrical ones, you could setup some simple power production or carry it across in batteries.\n\nIf you are making an LV Miner, it needs a §6LV Sensor§r, which requires a bit of §6Quartzite§r.\n\nThere is no singleblock at §dEV§r, but at §9IV§r, you can build multiblock §3Drilling Plants§r instead.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -58250,354 +58235,326 @@
           "y:3": 232
         },
         "22:10": {
-          "id:3": 173,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -792,
-          "y:3": 308
-        },
-        "23:10": {
-          "id:3": 174,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -792,
-          "y:3": 176
-        },
-        "24:10": {
           "id:3": 215,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -840,
           "y:3": 80
         },
-        "25:10": {
+        "23:10": {
           "id:3": 228,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -560,
           "y:3": 80
         },
-        "26:10": {
+        "24:10": {
           "id:3": 231,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -708,
           "y:3": 440
         },
-        "27:10": {
+        "25:10": {
           "id:3": 259,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -660,
           "y:3": 428
         },
-        "28:10": {
+        "26:10": {
           "id:3": 260,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -648,
           "y:3": 232
         },
-        "29:10": {
+        "27:10": {
           "id:3": 270,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -940,
           "y:3": 144
         },
-        "30:10": {
+        "28:10": {
           "id:3": 272,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
           "y:3": 160
         },
-        "31:10": {
+        "29:10": {
           "id:3": 273,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -792,
           "y:3": 440
         },
-        "32:10": {
+        "30:10": {
           "id:3": 282,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -480,
           "y:3": 116
         },
-        "33:10": {
+        "31:10": {
           "id:3": 296,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
           "y:3": 128
         },
-        "34:10": {
+        "32:10": {
           "id:3": 352,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -792,
           "y:3": 80
         },
-        "35:10": {
+        "33:10": {
           "id:3": 402,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -448,
-          "y:3": 424
+          "x:3": -976,
+          "y:3": 444
         },
-        "36:10": {
+        "34:10": {
           "id:3": 403,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -492,
-          "y:3": 424
+          "x:3": -1020,
+          "y:3": 444
         },
-        "37:10": {
+        "35:10": {
           "id:3": 413,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -892,
           "y:3": 128
         },
-        "38:10": {
+        "36:10": {
           "id:3": 490,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -560,
           "y:3": 128
         },
-        "39:10": {
+        "37:10": {
           "id:3": 497,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -940,
           "y:3": 280
         },
-        "40:10": {
+        "38:10": {
           "id:3": 498,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -840,
           "y:3": 440
         },
-        "41:10": {
+        "39:10": {
           "id:3": 516,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -792,
           "y:3": 344
         },
-        "42:10": {
+        "40:10": {
           "id:3": 517,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -892,
           "y:3": 280
         },
-        "43:10": {
+        "41:10": {
           "id:3": 528,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
           "y:3": 196
         },
-        "44:10": {
+        "42:10": {
           "id:3": 544,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -692,
           "y:3": 284
         },
-        "45:10": {
+        "43:10": {
           "id:3": 545,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -648,
           "y:3": 344
         },
-        "46:10": {
+        "44:10": {
           "id:3": 553,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
           "y:3": 80
         },
-        "47:10": {
+        "45:10": {
           "id:3": 554,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
           "y:3": 48
         },
-        "48:10": {
+        "46:10": {
           "id:3": 559,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -708,
           "y:3": 476
         },
-        "49:10": {
+        "47:10": {
           "id:3": 774,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -940,
           "y:3": 188
         },
-        "50:10": {
+        "48:10": {
           "id:3": 787,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -560,
           "y:3": 160
         },
-        "51:10": {
+        "49:10": {
           "id:3": 788,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -492,
-          "y:3": 292
+          "x:3": -512,
+          "y:3": 396
         },
-        "52:10": {
+        "50:10": {
           "id:3": 789,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -448,
-          "y:3": 292
+          "x:3": -468,
+          "y:3": 396
         },
-        "53:10": {
+        "51:10": {
           "id:3": 805,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -604,
           "y:3": 232
         },
-        "54:10": {
+        "52:10": {
           "id:3": 814,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -608,
           "y:3": 276
         },
-        "55:10": {
+        "53:10": {
           "id:3": 815,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -940,
           "y:3": 232
         },
-        "56:10": {
-          "id:3": 819,
-          "sizeX:3": 32,
-          "sizeY:3": 32,
-          "x:3": -492,
-          "y:3": 468
-        },
-        "57:10": {
-          "id:3": 890,
-          "sizeX:3": 32,
-          "sizeY:3": 32,
-          "x:3": -448,
-          "y:3": 380
-        },
-        "58:10": {
+        "54:10": {
           "id:3": 893,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -492,
-          "y:3": 380
+          "x:3": -1020,
+          "y:3": 400
         },
-        "59:10": {
+        "55:10": {
           "id:3": 903,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -744,
           "y:3": 344
         },
-        "60:10": {
+        "56:10": {
           "id:3": 919,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -448,
-          "y:3": 336
+          "x:3": -976,
+          "y:3": 400
         },
-        "61:10": {
+        "57:10": {
           "id:3": 926,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -448,
-          "y:3": 468
+          "x:3": -468,
+          "y:3": 440
         },
-        "62:10": {
+        "58:10": {
           "id:3": 933,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -840,
           "y:3": 272
         },
-        "63:10": {
+        "59:10": {
           "id:3": 1046,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -448,
-          "y:3": 248
+          "x:3": -468,
+          "y:3": 308
         },
-        "64:10": {
+        "60:10": {
           "id:3": 1049,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -492,
-          "y:3": 336
+          "x:3": -1020,
+          "y:3": 356
         },
-        "65:10": {
-          "id:3": 1050,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -840,
-          "y:3": 184
-        },
-        "66:10": {
+        "61:10": {
           "id:3": 1051,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -792,
           "y:3": 392
         },
-        "67:10": {
+        "62:10": {
+          "id:3": 1093,
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": -512,
+          "y:3": 352
+        },
+        "63:10": {
           "id:3": 1094,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -892,
           "y:3": 392
         },
-        "68:10": {
+        "64:10": {
           "id:3": 1095,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -492,
-          "y:3": 248
+          "x:3": -468,
+          "y:3": 352
         },
-        "69:10": {
+        "65:10": {
           "id:3": 1098,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -744,
           "y:3": 184
         },
-        "70:10": {
+        "66:10": {
           "id:3": 1101,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -748,
           "y:3": 76
         },
-        "71:10": {
+        "67:10": {
           "id:3": 1105,
           "sizeX:3": 32,
           "sizeY:3": 32,
-          "x:3": -448,
-          "y:3": 204
+          "x:3": -512,
+          "y:3": 440
         }
       }
     },
@@ -58757,8 +58714,8 @@
           "id:3": 75,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 48,
-          "y:3": -228
+          "x:3": 44,
+          "y:3": -188
         },
         "20:10": {
           "id:3": 76,
@@ -59006,440 +58963,454 @@
           "y:3": -184
         },
         "55:10": {
+          "id:3": 173,
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": 24,
+          "y:3": -232
+        },
+        "56:10": {
+          "id:3": 174,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 28,
+          "y:3": -268
+        },
+        "57:10": {
           "id:3": 184,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 244,
           "y:3": -184
         },
-        "56:10": {
+        "58:10": {
           "id:3": 187,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": -88,
           "y:3": -412
         },
-        "57:10": {
+        "59:10": {
           "id:3": 203,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 696,
           "y:3": -372
         },
-        "58:10": {
+        "60:10": {
           "id:3": 213,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 740,
           "y:3": -336
         },
-        "59:10": {
+        "61:10": {
           "id:3": 219,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 740,
           "y:3": -300
         },
-        "60:10": {
+        "62:10": {
           "id:3": 227,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 284,
           "y:3": -364
         },
-        "61:10": {
+        "63:10": {
           "id:3": 233,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 112,
           "y:3": -148
         },
-        "62:10": {
+        "64:10": {
           "id:3": 236,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 612,
           "y:3": -520
         },
-        "63:10": {
+        "65:10": {
           "id:3": 237,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -104
         },
-        "64:10": {
+        "66:10": {
           "id:3": 319,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 420,
           "y:3": -420
         },
-        "65:10": {
+        "67:10": {
           "id:3": 338,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 448,
           "y:3": -192
         },
-        "66:10": {
+        "68:10": {
           "id:3": 398,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 360,
           "y:3": -560
         },
-        "67:10": {
+        "69:10": {
           "id:3": 400,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 284,
           "y:3": -556
         },
-        "68:10": {
+        "70:10": {
           "id:3": 502,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 612,
           "y:3": -448
         },
-        "69:10": {
+        "71:10": {
           "id:3": 504,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 284,
           "y:3": -112
         },
-        "70:10": {
+        "72:10": {
           "id:3": 505,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 284,
           "y:3": -148
         },
-        "71:10": {
+        "73:10": {
           "id:3": 507,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 656,
           "y:3": -184
         },
-        "72:10": {
+        "74:10": {
           "id:3": 509,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 376,
           "y:3": -376
         },
-        "73:10": {
+        "75:10": {
           "id:3": 540,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -4
         },
-        "74:10": {
+        "76:10": {
           "id:3": 541,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 420,
           "y:3": -376
         },
-        "75:10": {
+        "77:10": {
           "id:3": 546,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 244,
           "y:3": -148
         },
-        "76:10": {
+        "78:10": {
           "id:3": 549,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 172,
           "y:3": -268
         },
-        "77:10": {
+        "79:10": {
           "id:3": 609,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 376,
           "y:3": -420
         },
-        "78:10": {
+        "80:10": {
           "id:3": 727,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -364
         },
-        "79:10": {
+        "81:10": {
           "id:3": 730,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 248,
           "y:3": -400
         },
-        "80:10": {
+        "82:10": {
           "id:3": 731,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 284,
           "y:3": -400
         },
-        "81:10": {
+        "83:10": {
           "id:3": 747,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 16,
-          "y:3": -228
+          "x:3": 44,
+          "y:3": -148
         },
-        "82:10": {
+        "84:10": {
           "id:3": 790,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -124
         },
-        "83:10": {
+        "85:10": {
           "id:3": 801,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 864,
           "y:3": -336
         },
-        "84:10": {
+        "86:10": {
           "id:3": 810,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 208,
           "y:3": -268
         },
-        "85:10": {
+        "87:10": {
           "id:3": 812,
           "sizeX:3": 0,
           "sizeY:3": 0,
           "x:3": 296,
           "y:3": -216
         },
-        "86:10": {
+        "88:10": {
           "id:3": 816,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 312,
           "y:3": -72
         },
-        "87:10": {
+        "89:10": {
           "id:3": 818,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 364,
           "y:3": -104
         },
-        "88:10": {
+        "90:10": {
           "id:3": 820,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -164
         },
-        "89:10": {
+        "91:10": {
           "id:3": 821,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 676,
           "y:3": -316
         },
-        "90:10": {
+        "92:10": {
           "id:3": 822,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -60
         },
-        "91:10": {
+        "93:10": {
           "id:3": 823,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 28,
           "y:3": -364
         },
-        "92:10": {
+        "94:10": {
           "id:3": 824,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 696,
           "y:3": -228
         },
-        "93:10": {
+        "95:10": {
           "id:3": 830,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 504,
           "y:3": -232
         },
-        "94:10": {
+        "96:10": {
           "id:3": 831,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 528,
           "y:3": -264
         },
-        "95:10": {
+        "97:10": {
           "id:3": 832,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 528,
           "y:3": -192
         },
-        "96:10": {
+        "98:10": {
           "id:3": 833,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 488,
           "y:3": -192
         },
-        "97:10": {
+        "99:10": {
           "id:3": 834,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 568,
           "y:3": -264
         },
-        "98:10": {
+        "100:10": {
           "id:3": 835,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 448,
           "y:3": -264
         },
-        "99:10": {
+        "101:10": {
           "id:3": 836,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 100,
           "y:3": -268
         },
-        "100:10": {
+        "102:10": {
           "id:3": 837,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 136,
           "y:3": -268
         },
-        "101:10": {
+        "103:10": {
           "id:3": 886,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 284,
           "y:3": -520
         },
-        "102:10": {
+        "104:10": {
           "id:3": 891,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 244,
           "y:3": -268
         },
-        "103:10": {
+        "105:10": {
           "id:3": 894,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 136,
           "y:3": -404
         },
-        "104:10": {
+        "106:10": {
           "id:3": 895,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 136,
           "y:3": -364
         },
-        "105:10": {
+        "107:10": {
           "id:3": 896,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 372,
           "y:3": -192
         },
-        "106:10": {
+        "108:10": {
           "id:3": 897,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 408,
           "y:3": -228
         },
-        "107:10": {
+        "109:10": {
           "id:3": 899,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 208,
           "y:3": -404
         },
-        "108:10": {
+        "110:10": {
           "id:3": 929,
           "sizeX:3": 32,
           "sizeY:3": 32,
           "x:3": 360,
           "y:3": -144
         },
-        "109:10": {
+        "111:10": {
           "id:3": 936,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 816,
           "y:3": -420
         },
-        "110:10": {
+        "112:10": {
           "id:3": 1040,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 172,
           "y:3": -364
         },
-        "111:10": {
+        "113:10": {
           "id:3": 1041,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 612,
           "y:3": -316
         },
-        "112:10": {
+        "114:10": {
           "id:3": 1052,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": -364
         },
-        "113:10": {
+        "115:10": {
           "id:3": 1076,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 408,
           "y:3": -264
         },
-        "114:10": {
+        "116:10": {
           "id:3": 1083,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 688,
           "y:3": -416
         },
-        "115:10": {
+        "117:10": {
           "id:3": 1092,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 408,
           "y:3": -192
         },
-        "116:10": {
+        "118:10": {
           "id:3": 1095,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 172,
           "y:3": -444
         },
-        "117:10": {
+        "119:10": {
           "id:3": 1097,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -63458,160 +63429,174 @@
           "y:3": 216
         },
         "55:10": {
+          "id:3": 819,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": 572
+        },
+        "56:10": {
+          "id:3": 890,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 592
+        },
+        "57:10": {
           "id:3": 902,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -42
         },
-        "56:10": {
+        "58:10": {
           "id:3": 909,
           "sizeX:3": 40,
           "sizeY:3": 40,
           "x:3": -20,
           "y:3": 280
         },
-        "57:10": {
+        "59:10": {
           "id:3": 911,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
           "y:3": 536
         },
-        "58:10": {
+        "60:10": {
           "id:3": 913,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": 24
         },
-        "59:10": {
+        "61:10": {
           "id:3": 914,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -228,
           "y:3": 132
         },
-        "60:10": {
+        "62:10": {
           "id:3": 927,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": 48
         },
-        "61:10": {
+        "63:10": {
           "id:3": 932,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": 132
         },
-        "62:10": {
+        "64:10": {
           "id:3": 937,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 324
         },
-        "63:10": {
+        "65:10": {
           "id:3": 938,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": 288
+          "x:3": 44,
+          "y:3": 308
         },
-        "64:10": {
+        "66:10": {
           "id:3": 1048,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -4
         },
-        "65:10": {
+        "67:10": {
           "id:3": 1077,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": 24
         },
-        "66:10": {
+        "68:10": {
           "id:3": 1081,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": 168
         },
-        "67:10": {
+        "69:10": {
           "id:3": 1082,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
           "y:3": 60
         },
-        "68:10": {
+        "70:10": {
           "id:3": 1084,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": 396
         },
-        "69:10": {
+        "71:10": {
           "id:3": 1085,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": 432
         },
-        "70:10": {
+        "72:10": {
           "id:3": 1086,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": 360
         },
-        "71:10": {
+        "73:10": {
           "id:3": 1087,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": 252
         },
-        "72:10": {
+        "74:10": {
           "id:3": 1088,
           "sizeX:3": 40,
           "sizeY:3": 40,
           "x:3": -56,
           "y:3": 468
         },
-        "73:10": {
+        "75:10": {
           "id:3": 1089,
           "sizeX:3": 40,
           "sizeY:3": 40,
           "x:3": 16,
           "y:3": 468
         },
-        "74:10": {
+        "76:10": {
           "id:3": 1093,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": 216
         },
-        "75:10": {
+        "77:10": {
           "id:3": 1095,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": 252
         },
-        "76:10": {
+        "78:10": {
           "id:3": 1099,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": 252
         },
-        "77:10": {
+        "79:10": {
           "id:3": 1103,
           "sizeX:3": 24,
           "sizeY:3": 24,
