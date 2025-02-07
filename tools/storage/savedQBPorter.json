@@ -757,10 +757,6 @@
       "expert": 926
     },
     {
-      "normal": 935,
-      "expert": 935
-    },
-    {
       "normal": 952,
       "expert": 922
     },
@@ -799,6 +795,10 @@
     {
       "normal": 1024,
       "expert": 932
+    },
+    {
+      "normal": 1027,
+      "expert": 935
     },
     {
       "normal": 1031,
