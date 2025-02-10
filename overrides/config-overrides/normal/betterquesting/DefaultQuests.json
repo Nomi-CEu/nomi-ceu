@@ -14595,7 +14595,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§2Pumps are now available in GT.§r\n\nUseful for gathering §6Oil§r or perhaps §6Lava§r from the §cNether§r.",
+          "desc:8": "§2Pumps are now available in GT.§r\n\nUseful for gathering §6Oil§r, or perhaps §6Lava§r from the §cNether§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34265,7 +34265,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§aMolds§r are used in a §3Fluid Solidifier§r or §3Alloy Smelter§r to form materials into specific shapes. These are not consumed or damaged during crafting, so you can leave them in a machine to dedicate it to that shape.\n\nThe Fluid Solidifier tends to be the more efficient option: for example, you can use §e8 ingots§r to make one §6Gear§r in an Alloy Smelter, but with an Extractor and Solidifier you can accomplish the same result with §e4 ingots§r.\n\nBe careful not to accidentally make §aExtruder Shapes§r. Those are for a machine you will get access to later. The three molds in this quest are ones you will find useful right away.",
+          "desc:8": "§aMolds§r are used in a §3Fluid Solidifier§r or §3Alloy Smelter§r to form materials into specific shapes. These are not consumed or damaged during crafting, so you can leave them in a machine to dedicate it to that shape.\n\nThe Fluid Solidifier tends to be the more efficient option: for example, you can use §e8 ingots§r to make one §6Gear§r in an Alloy Smelter, but with an Extractor and Solidifier you can accomplish the same result with §e4 ingots§r.\n\nBe careful not to accidentally make §aExtruder Shapes§r. Those are for a machine you will get access to later. The two molds in this quest are ones you will find useful right away.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34315,24 +34315,12 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 3,
-              "Damage:2": 11,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 18,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
-            "2:10": {
               "Count:3": 1,
               "Damage:2": 13,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             },
-            "3:10": {
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 24,
               "OreDict:8": "",
