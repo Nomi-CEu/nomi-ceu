@@ -19849,7 +19849,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Currently, a §3Fluid Solidifier§r is one step in your process for more efficient rubber. Like, a LOT more efficient.\n\n§3Fluid Solidifiers§r are useful for lots of other things too, of course. Look through the various molds to see what you can make with one. §aGears§r and §aRotors§r may be the most useful.",
+          "desc:8": "Currently, a §3Fluid Solidifier§r is one step in your process for more efficient rubber. Like, a LOT more efficient.\n\n§3Fluid Solidifiers§r are useful for lots of other things too, of course. Look through the various molds to see what you can make with one.\n\nWhilst you have some molds from the §6Steam Age§r, they aren\u0027t too useful. The molds most useful to you now are probably the ones for §aGears§r and §aRotors§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19893,6 +19893,30 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 13,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 24,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -20822,7 +20846,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You need the §bCoke Oven§r for §9Creosote Oil§r, which can be used as fuel and for §6Treated Planks§r. Given how slow the recipes run, you might want to make more than one of these.\n\n§eMultiblocks, like the Coke Oven, can share blocks! For example, if you build another Coke Oven, you can share the wall between them!§r\n\nA diagram of how to build this structure is in §bJEI§r. You can also §6sneak-right click§r the controller to enable the in-world preview. You can use up to 5 §6Coke Oven Hatches§r for automation, which replaces any Coke Oven Brick in the structure.\n\nPlacing your §6Coal§r into here will turn it into §6Coal Coke§r, which burns for twice as long, and produces extra §9Creosote Oil§r, which you can use as a further fuel source. Essentially, you create more bang for your buck!\n\nYou can also make §6Charcoal§r now! Only takes 45 seconds...\n\nAlso, remember: You can make §6Tiny Charcoal§r and §6Tiny Coke§r, which smelt exactly one item in the §bFurnace§r. Don\u0027t waste fuel!\n\nDon\u0027t let the §9Creosote Oil§r fill up, or the Oven will stop!\n\nMake some §bGregTech §6Wooden Barrels§r or §6Bronze Drums§r to store all the oil, or use it in §eSteam Liquid Boilers§r and in §eFurnaces§r! Please note that using Creosote Oil in the furnace requires placing it in a bucket first.",
+          "desc:8": "You need the §bCoke Oven§r for §9Creosote Oil§r, which can be used as fuel and for §6Treated Planks§r. Given how slow the recipes run, you might want to make more than one of these.\n\n§eMultiblocks, like the Coke Oven, can share blocks! For example, if you build another Coke Oven, you can share the wall between them!§r\n\nA diagram of how to build this structure is in §bJEI§r. You can also §6sneak-right click§r the controller to enable the in-world preview. You can use up to 5 §6Coke Oven Hatches§r for automation, which replaces any Coke Oven Brick in the structure.\n\nPlacing your §6Coal§r into here will turn it into §6Coal Coke§r, which burns for twice as long, and produces extra §9Creosote Oil§r, which you can use as a further fuel source. Essentially, you create more bang for your buck!\n\n§cBut: Don\u0027t let the Creosote Oil fill up, or the Oven will stop!§r\n\nInstead, make some §bGregTech §6Wooden Barrels§r or §6Bronze Drums§r to store all the oil, or use it in §eSteam Liquid Boilers§r and in §eFurnaces§r! Please note that using Creosote Oil in the furnace requires placing it in a bucket first.\n\nBonus: you can also make §6Charcoal§r now! Only takes 45 seconds...\n\nAlso, remember: You can make §6Tiny Charcoal§r and §6Tiny Coke§r, which smelt exactly one item in the §bFurnace§r. Don\u0027t waste fuel!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20869,12 +20893,6 @@
               "Damage:2": 8,
               "OreDict:8": "",
               "id:8": "gregtech:metal_casing"
-            },
-            "2:10": {
-              "Count:3": 8,
-              "Damage:2": 1,
-              "OreDict:8": "",
-              "id:8": "gregtech:planks"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -29533,24 +29551,18 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 3,
-              "Damage:2": 11,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
-            "1:10": {
               "Count:3": 1,
               "Damage:2": 18,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             },
-            "2:10": {
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 12,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             },
-            "3:10": {
+            "2:10": {
               "Count:3": 1,
               "Damage:2": 17,
               "OreDict:8": "",
@@ -36636,7 +36648,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Feeding §3Steam producers§r with water by hand is a pretty silly idea.\n\nA §2Primitive Water Pump§r will take care of that for you.\n\nA diagram of how to build this structure is in §bJEI§r. You can also §6sneak-right click§r the controller to enable the in-world preview. The location of the §ePump Output Hatch§r is fixed.",
+          "desc:8": "§oBoth tasks must be completed!§r\n\nFeeding §3Steam Boilers§r with water by hand is a pretty silly idea.\n\nA §2Primitive Water Pump§r will take care of that for you. But first, you need to make some §6Treated Wood§r. Simply place some wood and a fluid container filled with §9Creosote Oil§r in the crafting table. (Try some §eDrums§r!)\n\nA diagram of how to build this structure is in §bJEI§r. You can also §6sneak-right click§r the controller to enable the in-world preview. The location of the §ePump Output Hatch§r is fixed.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -36668,8 +36680,26 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:planks"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
