@@ -12302,7 +12302,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§2Pumps are now available in GT. Useful for gathering Oil or perhaps Lava from the Nether.§r",
+          "desc:8": "§2Pumps are now available in GT.§r\n\nUseful for gathering §6Oil§r, or perhaps §6Lava§r from the §cNether§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19849,7 +19849,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Currently, a §3Fluid Solidifier§r is one step in your process for more efficient rubber. Like, a LOT more efficient.\n\n§3Fluid Solidifiers§r are useful for lots of other things too, of course. Look through the various molds to see what you can make with one.\n\nWhilst you have some molds from the §6Steam Age§r, they aren\u0027t too useful. The molds most useful to you now are probably the ones for §aGears§r and §aRotors§r.",
+          "desc:8": "Currently, a §3Fluid Solidifier§r is one step in your process for more efficient rubber. Like, a LOT more efficient.\n\n§3Fluid Solidifiers§r are useful for lots of other things too, of course. Look through the various molds to see what you can make with one.\n\nWhilst you have some molds from the §6Steam Age§r, you will want to craft the ones for §aGears§r and §aRotors§r, which allow you to both simplify their crafting process and reduce the resources needed to make them.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -29514,7 +29514,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§aMolds§r are used in a §3Fluid Solidifier§r or §3Alloy Smelter§r to form materials into specific shapes. These are not consumed or damaged during crafting, so you can leave them in a machine to dedicate it to that shape.\n\nThe Fluid Solidifier tends to be the more efficient option: for example, you can use §e8 ingots§r to make one §6Gear§r in an Alloy Smelter, but with an Extractor and Solidifier you can accomplish the same result with §e4 ingots§r.\n\nBe careful not to accidentally make §aExtruder Shapes§r. Those are for a machine you will get access to later. The three molds in this quest are ones you will find useful right away.",
+          "desc:8": "§aMolds§r are used in a §3Fluid Solidifier§r or §3Alloy Smelter§r to form materials into specific shapes. These are not consumed or damaged during crafting, so you can leave them in a machine to dedicate it to that shape.\n\nThe Fluid Solidifier tends to be the more efficient option: for example, you can use §e8 ingots§r to make one §6Gear§r in an Alloy Smelter, but with an Extractor and Solidifier you can accomplish the same result with §e4 ingots§r.\n\nThe only extractor you have access to now, the §3Steam Extractor§r, does not produce fluids, so you will have to wait until §7LV§r to use that setup.\n\nBe careful not to accidentally make §aExtruder Shapes§r. Those are for a machine you will get access to later. The three molds in this quest are ones you will need right away.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -63749,8 +63749,8 @@
           "id:3": 938,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 44,
-          "y:3": 308
+          "x:3": 24,
+          "y:3": 288
         },
         "66:10": {
           "id:3": 1048,
